@@ -158,7 +158,7 @@ async function processPrivateKey(privateKey) {
           );
 
           if (totalClaim > availableBoxes) {
-            console.log(`You cannot open more boxes than available`.red);
+            console.log(`You cannot open more boxes than`.red);
           } else if (isNaN(totalClaim)) {
             console.log(`Please enter a valid number`.red);
           } else {
