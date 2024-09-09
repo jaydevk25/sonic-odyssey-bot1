@@ -1,0 +1,14 @@
+zzzz
+
+https://nillion-testnet-rpc.polkachu.com
+
+Update ur Secrets
+sudo docker logs --tail=10000 f0cf0b4c2c67 | grep -A 2 Registered | tail -3
+
+Stop old container
+sudo docker stop xxxx xxxx
+
+Delete old container
+sudo docker rm xxxx xxxx
+
+2358b838d54a
